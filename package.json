@@ -2,7 +2,7 @@
   "name": "incontri-con-l-arte",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://carlomartinucci.github.io/incontri-con-l-arte",
+  "homepage": "https://carlomartinucci.github.io/incontri-con-l-arte/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
