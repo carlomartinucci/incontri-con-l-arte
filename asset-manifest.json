@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/incontri-con-l-arte/static/js/main.1096fcbc.chunk.js",
-    "main.js.map": "/incontri-con-l-arte/static/js/main.1096fcbc.chunk.js.map",
+    "main.js": "/incontri-con-l-arte/static/js/main.2c38d8bc.chunk.js",
+    "main.js.map": "/incontri-con-l-arte/static/js/main.2c38d8bc.chunk.js.map",
     "runtime-main.js": "/incontri-con-l-arte/static/js/runtime-main.24b76992.js",
     "runtime-main.js.map": "/incontri-con-l-arte/static/js/runtime-main.24b76992.js.map",
     "static/css/2.de424728.chunk.css": "/incontri-con-l-arte/static/css/2.de424728.chunk.css",
     "static/js/2.38e096d2.chunk.js": "/incontri-con-l-arte/static/js/2.38e096d2.chunk.js",
     "static/js/2.38e096d2.chunk.js.map": "/incontri-con-l-arte/static/js/2.38e096d2.chunk.js.map",
     "index.html": "/incontri-con-l-arte/index.html",
-    "precache-manifest.6ba5ab27a156ab579353fddeb991b794.js": "/incontri-con-l-arte/precache-manifest.6ba5ab27a156ab579353fddeb991b794.js",
+    "precache-manifest.cb2d13e4bdcfe23effcb42d435b7a9ab.js": "/incontri-con-l-arte/precache-manifest.cb2d13e4bdcfe23effcb42d435b7a9ab.js",
     "service-worker.js": "/incontri-con-l-arte/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/incontri-con-l-arte/static/css/2.de424728.chunk.css.map",
     "static/js/2.38e096d2.chunk.js.LICENSE.txt": "/incontri-con-l-arte/static/js/2.38e096d2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.24b76992.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.38e096d2.chunk.js",
-    "static/js/main.1096fcbc.chunk.js"
+    "static/js/main.2c38d8bc.chunk.js"
   ]
 }

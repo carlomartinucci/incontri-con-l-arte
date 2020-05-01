@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f8c1b81d0a4a0f73ee9be08e802740c",
+    "revision": "48ef5d2233a79303b05c0e9aec635582",
     "url": "/incontri-con-l-arte/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/incontri-con-l-arte/static/js/2.38e096d2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0f0a42af02c0e9e294c",
-    "url": "/incontri-con-l-arte/static/js/main.1096fcbc.chunk.js"
+    "revision": "0b6b1c90393d359f19b1",
+    "url": "/incontri-con-l-arte/static/js/main.2c38d8bc.chunk.js"
   },
   {
     "revision": "f99664285c6eaa39fcbc",
