@@ -103,7 +103,7 @@ const App = () => (
 );
 
 const NotUsing = ({ os }) => (
-  <p className="small text-muted mt-sm">
+  <p className="small text-muted mt-3">
     Non stai usando {os}? Scegli quello che stai usando cliccando sopra e segui
     le istruzioni corrette per te.
   </p>
