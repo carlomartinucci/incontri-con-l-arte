@@ -7,10 +7,25 @@ import Alert from "react-bootstrap/Alert";
 
 import DeviceDetector from "device-detector-js";
 
-const deviceDetector = new DeviceDetector();
-const device = deviceDetector.parse(navigator.userAgent);
+const defaultActiveKey = (() => {
+  const deviceDetector = new DeviceDetector();
+  const { device, os, client } = deviceDetector.parse(navigator.userAgent);
 
-console.log(device);
+  if (os.name === "iOS" && ["smartphone", "tablet"].includes(device.type)) {
+    return "iphone";
+  } else if (os.name === "iOS") {
+    return "mac";
+  } else if (os.name === "Windows") {
+    return "windows";
+  } else if (os.name === "Android") {
+    return "android";
+  } else if (client.name === "Chrome") {
+    return "chrome";
+  } else {
+    return "windows";
+  }
+})();
+
 const zoomMeetingUrl = "//google.com";
 
 const App = () => (
@@ -21,7 +36,7 @@ const App = () => (
       <p>Istruzioni per accedere</p>
     </Jumbotron>
 
-    <Tabs variant="pills" defaultActiveKey="chrome">
+    <Tabs variant="pills" defaultActiveKey={defaultActiveKey}>
       <Tab eventKey="chrome" title="Google Chrome">
         <NotUsing os="Google Chrome" />
         Per seguire l'incontro sull'arte usando Google Chrome, ti basta{" "}
