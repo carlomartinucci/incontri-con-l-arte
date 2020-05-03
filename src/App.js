@@ -1,9 +1,13 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import Alert from "react-bootstrap/Alert";
+
+import rembrandt from "./rembrandt.jpg";
+import emmaus from "./emmaus.jpg";
 
 import DeviceDetector from "device-detector-js";
 
@@ -30,9 +34,11 @@ const zoomMeetingUrl = "//google.com";
 
 const App = () => (
   <Container className="p-3">
+    {false && <Image src={rembrandt} fluid></Image>}
+
     <Jumbotron>
-      <h1 className="header">Incontro con l'arte</h1>
-      <h2>Sabato 9 maggio, ore 20.30</h2>
+      <h1 className="header">Meditazioni con l'arte</h1>
+      <h2>Sabato 9 maggio, ore 16</h2>
       <p>Istruzioni per accedere</p>
     </Jumbotron>
 
