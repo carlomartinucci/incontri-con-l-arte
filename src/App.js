@@ -30,7 +30,17 @@ const defaultActiveKey = (() => {
   }
 })();
 
-const zoomMeetingUrl = "//google.com";
+// `
+// Topic: Catechesi con l'arte
+// Time: May 9, 2020 04:00 PM Rome
+
+// Join Zoom Meeting
+
+
+// Meeting ID: 857 5787 4856
+// `
+
+const zoomMeetingUrl = "https://us02web.zoom.us/j/85757874856";
 
 const App = () => (
   <Container className="p-3">
@@ -48,6 +58,8 @@ const App = () => (
         Per seguire l'incontro sull'arte usando Google Chrome, ti basta{" "}
         <a href={zoomMeetingUrl}>cliccare su questo link</a> che ti porterà
         direttamente al meeting su ZOOM.
+
+        <MeetingId />
       </Tab>
 
       <Tab eventKey="windows" title="Windows">
@@ -62,6 +74,7 @@ const App = () => (
         </p>
 
         <Join />
+        <MeetingId />
       </Tab>
 
       <Tab eventKey="mac" title="Mac">
@@ -77,6 +90,7 @@ const App = () => (
         </p>
 
         <Join />
+        <MeetingId />
       </Tab>
 
       <Tab eventKey="iphone" title="iPhone/iPad">
@@ -98,6 +112,7 @@ const App = () => (
         </p>
 
         <Join />
+        <MeetingId />
       </Tab>
 
       <Tab eventKey="android" title="Android">
@@ -118,6 +133,7 @@ const App = () => (
         </p>
 
         <Join />
+        <MeetingId />
       </Tab>
     </Tabs>
   </Container>
@@ -156,5 +172,11 @@ const AlreadyInstalled = () => (
     Altrimenti segui le istruzioni
   </Alert>
 );
+
+const MeetingId = () => <Alert variant="info" className="mt-3">
+  Argomento: Catechesi con l'arte<br/>
+  Data: Sabato 9 Maggio 2020, ore 16.00<br/>
+  Meeting ID: 857 5787 4856
+</Alert>
 
 export default App;
