@@ -176,7 +176,7 @@ const AlreadyInstalled = () => (
 const MeetingId = () => <Alert variant="info" className="mt-3">
   Argomento: Catechesi con l'arte<br/>
   Data: Sabato 9 Maggio 2020, ore 16.00<br/>
-  Meeting ID: 857 5787 4856
+  Meeting ID: <b>857 5787 4856</b>
 </Alert>
 
 export default App;
