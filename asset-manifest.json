@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.js": "/incontri-con-l-arte/static/js/main.2c38d8bc.chunk.js",
-    "main.js.map": "/incontri-con-l-arte/static/js/main.2c38d8bc.chunk.js.map",
+    "main.js": "/incontri-con-l-arte/static/js/main.1fa17fe4.chunk.js",
+    "main.js.map": "/incontri-con-l-arte/static/js/main.1fa17fe4.chunk.js.map",
     "runtime-main.js": "/incontri-con-l-arte/static/js/runtime-main.24b76992.js",
     "runtime-main.js.map": "/incontri-con-l-arte/static/js/runtime-main.24b76992.js.map",
     "static/css/2.de424728.chunk.css": "/incontri-con-l-arte/static/css/2.de424728.chunk.css",
-    "static/js/2.38e096d2.chunk.js": "/incontri-con-l-arte/static/js/2.38e096d2.chunk.js",
-    "static/js/2.38e096d2.chunk.js.map": "/incontri-con-l-arte/static/js/2.38e096d2.chunk.js.map",
+    "static/js/2.0d45cde8.chunk.js": "/incontri-con-l-arte/static/js/2.0d45cde8.chunk.js",
+    "static/js/2.0d45cde8.chunk.js.map": "/incontri-con-l-arte/static/js/2.0d45cde8.chunk.js.map",
     "index.html": "/incontri-con-l-arte/index.html",
-    "precache-manifest.cb2d13e4bdcfe23effcb42d435b7a9ab.js": "/incontri-con-l-arte/precache-manifest.cb2d13e4bdcfe23effcb42d435b7a9ab.js",
+    "precache-manifest.ad3bad8e5decc352df6be5498697ed9f.js": "/incontri-con-l-arte/precache-manifest.ad3bad8e5decc352df6be5498697ed9f.js",
     "service-worker.js": "/incontri-con-l-arte/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/incontri-con-l-arte/static/css/2.de424728.chunk.css.map",
-    "static/js/2.38e096d2.chunk.js.LICENSE.txt": "/incontri-con-l-arte/static/js/2.38e096d2.chunk.js.LICENSE.txt"
+    "static/js/2.0d45cde8.chunk.js.LICENSE.txt": "/incontri-con-l-arte/static/js/2.0d45cde8.chunk.js.LICENSE.txt",
+    "static/media/emmaus.jpg": "/incontri-con-l-arte/static/media/emmaus.f18c286f.jpg",
+    "static/media/rembrandt.jpg": "/incontri-con-l-arte/static/media/rembrandt.559040d6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.24b76992.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.38e096d2.chunk.js",
-    "static/js/main.2c38d8bc.chunk.js"
+    "static/js/2.0d45cde8.chunk.js",
+    "static/js/main.1fa17fe4.chunk.js"
   ]
 }

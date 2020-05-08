@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/incontri-con-l-arte/precache-manifest.cb2d13e4bdcfe23effcb42d435b7a9ab.js"
+  "/incontri-con-l-arte/precache-manifest.ad3bad8e5decc352df6be5498697ed9f.js"
 );
 
 self.addEventListener('message', (event) => {
