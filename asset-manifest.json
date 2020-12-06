@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.js": "/incontri-con-l-arte/static/js/main.a7cc2548.chunk.js",
-    "main.js.map": "/incontri-con-l-arte/static/js/main.a7cc2548.chunk.js.map",
-    "runtime-main.js": "/incontri-con-l-arte/static/js/runtime-main.24b76992.js",
-    "runtime-main.js.map": "/incontri-con-l-arte/static/js/runtime-main.24b76992.js.map",
-    "static/css/2.de424728.chunk.css": "/incontri-con-l-arte/static/css/2.de424728.chunk.css",
-    "static/js/2.0d45cde8.chunk.js": "/incontri-con-l-arte/static/js/2.0d45cde8.chunk.js",
-    "static/js/2.0d45cde8.chunk.js.map": "/incontri-con-l-arte/static/js/2.0d45cde8.chunk.js.map",
+    "main.js": "/incontri-con-l-arte/static/js/main.30355076.chunk.js",
+    "main.js.map": "/incontri-con-l-arte/static/js/main.30355076.chunk.js.map",
+    "runtime-main.js": "/incontri-con-l-arte/static/js/runtime-main.63398192.js",
+    "runtime-main.js.map": "/incontri-con-l-arte/static/js/runtime-main.63398192.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/incontri-con-l-arte/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.a47a350d.chunk.js": "/incontri-con-l-arte/static/js/2.a47a350d.chunk.js",
+    "static/js/2.a47a350d.chunk.js.map": "/incontri-con-l-arte/static/js/2.a47a350d.chunk.js.map",
     "index.html": "/incontri-con-l-arte/index.html",
-    "precache-manifest.2e95caf390504f36cab377544f90e792.js": "/incontri-con-l-arte/precache-manifest.2e95caf390504f36cab377544f90e792.js",
-    "service-worker.js": "/incontri-con-l-arte/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/incontri-con-l-arte/static/css/2.de424728.chunk.css.map",
-    "static/js/2.0d45cde8.chunk.js.LICENSE.txt": "/incontri-con-l-arte/static/js/2.0d45cde8.chunk.js.LICENSE.txt",
-    "static/media/emmaus.jpg": "/incontri-con-l-arte/static/media/emmaus.f18c286f.jpg",
-    "static/media/rembrandt.jpg": "/incontri-con-l-arte/static/media/rembrandt.559040d6.jpg"
+    "static/css/2.20aa2d7b.chunk.css.map": "/incontri-con-l-arte/static/css/2.20aa2d7b.chunk.css.map",
+    "static/js/2.a47a350d.chunk.js.LICENSE.txt": "/incontri-con-l-arte/static/js/2.a47a350d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.24b76992.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.0d45cde8.chunk.js",
-    "static/js/main.a7cc2548.chunk.js"
+    "static/js/runtime-main.63398192.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.a47a350d.chunk.js",
+    "static/js/main.30355076.chunk.js"
   ]
 }
