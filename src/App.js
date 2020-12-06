@@ -5,11 +5,9 @@ import Container from "react-bootstrap/Container";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import Alert from "react-bootstrap/Alert";
-
-import rembrandt from "./rembrandt.jpg";
-import emmaus from "./emmaus.jpg";
-
 import DeviceDetector from "device-detector-js";
+
+const CONGDON_URL = `${process.env.PUBLIC_URL}/img/congdon.jpg`
 
 const defaultActiveKey = (() => {
   const deviceDetector = new DeviceDetector();
@@ -44,13 +42,18 @@ const zoomMeetingUrl = "https://us02web.zoom.us/j/85757874856";
 
 const App = () => (
   <Container className="p-3">
-    {false && <Image src={rembrandt} fluid></Image>}
-
     <Jumbotron>
       <h1 className="header">Meditazioni con l'arte</h1>
-      <h2>Sabato 9 maggio, ore 16</h2>
+      <h2>venerdì 18 dicembre, ore 21</h2>
       <p>Istruzioni per accedere</p>
     </Jumbotron>
+
+    <a href={CONGDON_URL} className="d-flex flex-column mb-4">
+      <p className="text-center">
+        Clicca per scaricare l'immagine della natività di Congdon<br/>
+      </p>
+      <Image src={CONGDON_URL} fluid className="m-auto"></Image>
+    </a>
 
     <Tabs variant="pills" defaultActiveKey={defaultActiveKey}>
       <Tab eventKey="chrome" title="Google Chrome">
