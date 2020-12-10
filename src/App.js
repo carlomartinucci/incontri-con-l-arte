@@ -45,9 +45,36 @@ const App = () => (
     <Jumbotron>
       <h1 className="header">Meditazioni con l'arte</h1>
       <h2>venerdì 18 dicembre, ore 21</h2>
-      <p>Istruzioni per accedere</p>
+      <p>
+        Presso la Chiesa del Bassanello, e in {' '}
+        <a href="https://www.facebook.com/SantaTeresaPadova/">
+          diretta sulla pagina Facebook di Santa Teresa
+        </a>
+      </p>
     </Jumbotron>
 
+    <a href={CONGDON_URL} className="d-flex flex-column mb-4">
+      <p className="text-center">
+        Clicca per scaricare l'immagine della natività di Congdon<br/>
+      </p>
+      <Image src={CONGDON_URL} fluid className="m-auto"></Image>
+    </a>
+    
+    <p className="text-center">
+      <a href="https://www.facebook.com/SantaTeresaPadova/" className="btn btn-primary">
+        Clicca qui per accedere alla Pagina Facebook di Santa Teresa, dove avverrà la diretta
+      </a>
+    </p>
+  </Container>
+);
+
+const AppZoom = () => (
+  <Container className="p-3">
+    <Jumbotron>
+      <h1 className="header">Meditazioni con l'arte</h1>
+      <h2>venerdì 18 dicembre, ore 21</h2>
+      <p>Istruzioni per accedere</p>
+    </Jumbotron>
     <a href={CONGDON_URL} className="d-flex flex-column mb-4">
       <p className="text-center">
         Clicca per scaricare l'immagine della natività di Congdon<br/>
