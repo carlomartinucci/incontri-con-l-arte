@@ -44,7 +44,7 @@ const App = () => (
   <Container className="p-3">
     <Jumbotron>
       <h1 className="header">Meditazioni con l'arte</h1>
-      <h2>venerdì 18 dicembre, ore 21</h2>
+      <h2>venerdì 18 dicembre, ore 20:30</h2>
       <p>
         Presso la Chiesa del Bassanello, e in {' '}
         <a href="https://www.facebook.com/SantaTeresaPadova/">
